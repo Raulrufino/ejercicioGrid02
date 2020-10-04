@@ -1,4 +1,63 @@
 /* *********************************** */
 /* *** Estilos SOLO para index.html *** */
 /* *********************************** */
+body{
+    width: 900px;
+    background-color: #fff;
+}
+main{
+    display: grid;
+    grid-template-columns: 16fr 16fr 16fr;
+    grid-template-rows: 300px 300px 300px;
+   
+    
+}
+h1, h3, h4{
+    margin: 0;
+}
+.mainSection_h1{
+    font-size: 3rem;
+}
+.mainSection{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    display: flex;
+    flex-direction: column;
+   
+}
+.h3_texto{
+    font-size: 2rem;
+}
 
+.mainSectionLinks{
+    display: flex;
+    
+    align-self: right;
+}
+.menu_sectionh6A, .menu_sectionh6B, .menu_sectionh6C{
+    width: 90px;
+    
+}
+
+.main_a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: orange;
+    width: 100px;
+    border-radius: 10px;
+    color: #ffffff;
+    text-align: center;
+}
+
+h5{
+    grid-column: 3/4;
+    grid-row: 2/3;
+    font-size: 6rem;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.menu_sectionAA, .menu_sectionAB, .menu_sectionAC{
+ text-decoration: none;
+}
