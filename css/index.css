@@ -9,6 +9,7 @@ main{
     display: grid;
     grid-template-columns: 16fr 16fr 16fr;
     grid-template-rows: 300px 300px 300px;
+    background-color: rgb(255, 224, 245);
    
     
 }
